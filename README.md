@@ -9,3 +9,13 @@ This repository contains my learning journey and implementations related to AI h
 - Supports reset and enable control
 # ai-hardware-learning
 Learning and implementing AI hardware accelerator concepts
+## Verification
+
+The MAC unit was verified using a Verilog testbench.
+
+Simulation output showed correct accumulation:
+
+6 → 26 → 68 → 110 → 152
+
+This confirms correct multiply–accumulate behavior over clock cycles.
+
